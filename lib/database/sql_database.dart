@@ -15,6 +15,7 @@ class DataBase {
       },
     );
   }
+  // for insert
 
   Future<int> insert(Product product) async {
     final db = await initializedDB();
